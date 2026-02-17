@@ -1,0 +1,101 @@
+query_id,query_text,constraint_temperature,constraint_max_calories,constraint_max_sugar,constraint_dairy_free,constraint_vegan,constraint_caffeine_level,relevant_products,constraint_max_price,constraint_category
+TRAIN_001,"need a pick me up, something like just black coffee that's need the caffeine and under 45 grams of sugar",,,45.0,,,high,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_003']",,brewed
+TRAIN_002,May I get a chai or tea that's no regular milk and under 250 cal?,,250.0,,True,,,"['TEA_005', 'ICT_004', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'ICT_010', 'ICT_009', 'TEA_010', 'TEA_011']",,tea
+TRAIN_003,hit me with basic brewed coffee that's under 45 grams of sugar and cheaper than $5.0,,,45.0,,,,"['BRW_002', 'BRW_001', 'BRW_004', 'BRW_003', 'BRW_005']",5.0,brewed
+TRAIN_004,i want some tea that's less than 200 calories and max 30g sugar,,200.0,30.0,,,,"['TEA_005', 'ICT_004', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'TEA_012', 'TEA_003', 'ICT_003', 'ICT_002']",,tea
+TRAIN_005,could i get a cold brew that's under 100 cal and vegan friendly please?,,100.0,,,True,,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_006,running late but i need a cappuccino or latte that's cold and without milk,iced,,,True,,,"['ICE_015', 'ICE_008', 'ICE_007', 'ICE_016', 'ICE_001', 'ICE_009', 'ICE_018', 'ICE_017']",,espresso
+TRAIN_007,May I get drip coffee that's strong and less than $5.5?,,,,,,high,"['BRW_002', 'BRW_001', 'BRW_003', 'BRW_005']",5.5,brewed
+TRAIN_008,May I get a latte that's less than $4.0 and steaming?,hot,,,,,,"['ESP_014', 'ESP_015', 'ESP_016']",4.0,espresso
+TRAIN_009,I'm looking for herbal tea that's cheaper than $4.0 and no dairy,,,,True,,,"['TEA_005', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_004', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007']",4.0,tea
+TRAIN_010,give me a plain coffee that's max $4.5 and without milk,,,,True,,,"['BRW_002', 'BRW_001', 'BRW_004', 'BRW_003']",4.5,brewed
+TRAIN_011,i want an americano or latte that's less than 100 calories and fully vegan,,100.0,,,True,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ICE_018', 'ESP_017', 'ICE_017', 'ICE_015']",,espresso
+TRAIN_012,I'm looking for espresso something that's non-dairy and max $4.5,,,,True,,,"['ESP_014', 'ESP_002', 'ESP_017', 'ICE_001', 'ESP_001']",4.5,espresso
+TRAIN_013,lemme get a cappuccino or latte that's 20g sugar or less and under $4.0,,,20.0,,,,"['ESP_014', 'ESP_015', 'ESP_016']",4.0,espresso
+TRAIN_014,I'll take some cold brew that's no more than $5.0 and under 30g sugar,,,30.0,,,,"['CBR_001', 'CBR_008', 'CBR_009', 'CBR_010']",5.0,cold_brew
+TRAIN_015,"it's hot out, i need some tea that's medium caffeine and under $5.0",,,,,,medium,"['ICT_009', 'TEA_012']",5.0,tea
+TRAIN_016,do you have a refresher that's max $6.5 and max 30g sugar?,,,30.0,,,,"['REF_002', 'REF_001', 'REF_008', 'REF_007', 'REF_004', 'REF_003']",6.5,refresher
+TRAIN_017,i need a fruity refresher that's no dairy and no more than 200 cal,,200.0,,True,,,"['REF_001', 'REF_002', 'REF_008', 'REF_004', 'REF_007', 'REF_005', 'REF_006', 'REF_003', 'REF_009', 'REF_010']",,refresher
+TRAIN_018,ooh do you have herbal tea that's vegan friendly and no more than 200 cal?,,200.0,,,True,,"['TEA_005', 'ICT_004', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'ICT_010', 'ICT_009']",,tea
+TRAIN_019,running late but i need something refreshing and fruity that's no more than 150 cal and no more than $4.5,,150.0,,,,,"['REF_001', 'REF_002', 'REF_008']",4.5,refresher
+TRAIN_020,hit me with something refreshing and fruity that's no more than 40g sugar and $6.5 or less,,,40.0,,,,"['REF_002', 'REF_001', 'REF_008', 'REF_007', 'REF_004', 'REF_003', 'REF_005', 'REF_006', 'REF_009', 'REF_010']",6.5,refresher
+TRAIN_021,yo i need a latte that's max 250 calories and 25g sugar or less,,250.0,25.0,,,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_015', 'ICE_018', 'ESP_016', 'ICE_015', 'ICE_017', 'ESP_017', 'ICE_012', 'ICE_009', 'ICE_013', 'ICE_002', 'ICE_016', 'ESP_008', 'ICE_007', 'ICE_008', 'ESP_009', 'ESP_018', 'ESP_003', 'ESP_010']",,espresso
+TRAIN_022,"trying to be healthy, got an espresso drink that's less than $6.0 and under 45g sugar?",,,45.0,,,,"['ESP_014', 'ESP_015', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_016', 'ICE_018', 'ESP_017', 'ESP_008', 'ICE_012', 'ICE_015', 'ICE_013', 'ICE_017', 'ICE_002', 'ICE_009', 'ICE_016', 'ESP_009', 'ICE_007', 'ESP_018', 'ICE_008', 'ESP_003', 'ESP_010', 'ESP_013', 'ICE_014', 'ICE_003', 'ESP_005', 'ICE_004', 'ESP_006', 'ESP_004', 'ESP_012', 'ICE_011', 'ICE_005']",6.0,espresso
+TRAIN_023,could i get an americano or latte that's under 40 grams of sugar and no more than $5.5 please?,,,40.0,,,,"['ESP_014', 'ESP_015', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_016', 'ESP_017', 'ESP_008', 'ICE_012', 'ICE_013', 'ICE_002', 'ESP_009', 'ESP_003']",5.5,espresso
+TRAIN_024,hey can i get something refreshing and fruity that's icy and 250 calories or less,iced,250.0,,,,,"['REF_001', 'REF_002', 'REF_008', 'REF_004', 'REF_007', 'REF_005', 'REF_006', 'REF_003', 'REF_009']",,refresher
+TRAIN_025,"trying to be healthy, got some cold brew that's less than $6.5 and without milk?",,,,True,,,"['CBR_009', 'CBR_001', 'CBR_011', 'CBR_002', 'CBR_012']",6.5,cold_brew
+TRAIN_026,could i get a plain coffee that's cheaper than $5.0 and dairy free please?,,,,True,,,"['BRW_002', 'BRW_001', 'BRW_004', 'BRW_003', 'BRW_005']",5.0,brewed
+TRAIN_027,"need a pick me up, something like an espresso drink that's max 250 calories and hot",hot,250.0,,,,,"['ESP_014', 'ESP_002', 'ESP_001', 'ESP_015', 'ESP_016', 'ESP_017', 'ESP_008', 'ESP_018', 'ESP_010', 'ESP_009', 'ESP_003', 'ESP_004', 'ESP_005']",,espresso
+TRAIN_028,hey can i get a cold brew that's fully vegan and no more than 25g sugar,,,25.0,,True,,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_029,got any herbal tea that's no more than 45g sugar and oat milk or something dairy free?,,,45.0,True,,,"['TEA_005', 'ICT_004', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_010', 'TEA_009', 'ICT_010', 'ICT_009', 'TEA_011']",,tea
+TRAIN_030,could i get a refresher that's less than $4.5 and under 25g sugar please?,,,25.0,,,,"['REF_002', 'REF_001', 'REF_008']",4.5,refresher
+TRAIN_031,yo i need just black coffee that's without milk and hot,hot,,,True,,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_032,I'm looking for a latte that's under $6.5 and warm,hot,,,,,,"['ESP_014', 'ESP_015', 'ESP_016', 'ESP_002', 'ESP_017', 'ESP_001', 'ESP_008', 'ESP_009', 'ESP_003', 'ESP_018', 'ESP_010', 'ESP_006', 'ESP_013', 'ESP_012', 'ESP_004', 'ESP_005', 'ESP_007', 'ESP_011']",6.5,espresso
+TRAIN_033,I'll take house coffee that's max 45g sugar and no animal stuff,,,45.0,,True,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_034,espresso something that's under 150 cal and no more than 25g sugar please,,150.0,25.0,,,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_015', 'ICE_018', 'ESP_016', 'ICE_017', 'ICE_015', 'ESP_017', 'ICE_012', 'ICE_013', 'ICE_009', 'ICE_002', 'ICE_016', 'ICE_007', 'ESP_008', 'ICE_008']",,espresso
+TRAIN_035,I'd like an americano or latte that's max $5.5 and under 25 grams of sugar please,,,25.0,,,,"['ESP_014', 'ESP_015', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_016', 'ESP_017', 'ICE_012', 'ESP_008', 'ICE_013', 'ICE_002', 'ESP_009', 'ESP_003']",5.5,espresso
+TRAIN_036,hi! looking for a tea that's without caffeine and under $4.0,,,,,,none,"['TEA_008', 'TEA_007', 'ICT_004', 'ICT_007']",4.0,tea
+TRAIN_037,i want an espresso drink that's 30g sugar or less and non-dairy,,,30.0,True,,,"['ESP_002', 'ICE_001', 'ESP_014', 'ESP_001', 'ICE_018', 'ICE_015', 'ICE_017', 'ESP_017', 'ICE_009', 'ICE_016', 'ICE_007', 'ESP_018', 'ICE_008', 'ESP_010', 'ESP_013']",,espresso
+TRAIN_038,I'm looking for tea that's vegan friendly and without milk,,,,True,True,,"['TEA_005', 'ICT_004', 'TEA_010', 'TEA_008', 'TEA_007', 'TEA_009', 'TEA_004', 'ICT_009', 'ICT_008', 'TEA_006', 'ICT_010', 'ICT_005', 'ICT_007', 'ICT_006']",,tea
+TRAIN_039,May I get tea that's less than $5.5 and fully vegan?,,,,,True,,"['TEA_005', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_004', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'ICT_010', 'ICT_009']",5.5,tea
+TRAIN_040,could i get one of those refreshers that's max 150 calories and oat milk or something dairy free please?,,150.0,,True,,,"['REF_001', 'REF_002', 'REF_008', 'REF_004', 'REF_007', 'REF_005', 'REF_006', 'REF_003', 'REF_009', 'REF_010']",,refresher
+TRAIN_041,"need a pick me up, something like something refreshing and fruity that's oat milk or something dairy free and under $5.0",,,,True,,,"['REF_001', 'REF_008', 'REF_002', 'REF_005', 'REF_009', 'REF_006']",5.0,refresher
+TRAIN_042,I'm looking for one of those refreshers that's light on caffeine and less than 20g of sugar,,,20.0,,,low,"['REF_002', 'REF_001']",,refresher
+TRAIN_043,I'd like tea that's no animal stuff and hot please,hot,,,,True,,"['TEA_005', 'TEA_010', 'TEA_008', 'TEA_007', 'TEA_009', 'TEA_004', 'TEA_006']",,tea
+TRAIN_044,hi! looking for some cold brew that's less than 400 calories and extra caffeine,,400.0,,,,high,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_008', 'CBR_011', 'CBR_007', 'CBR_009', 'CBR_010', 'CBR_003', 'CBR_004', 'CBR_006', 'CBR_005']",,cold_brew
+TRAIN_045,May I get an americano or latte that's no more than $4.0 and oat milk or something dairy free?,,,,True,,,['ESP_014'],4.0,espresso
+TRAIN_046,"trying to be healthy, got drip coffee that's less than 35g of sugar and no animal stuff?",,,35.0,,True,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_047,I'll take green tea that's regular caffeine and under 30 grams of sugar,,,30.0,,,medium,"['TEA_010', 'TEA_012', 'ICT_002']",,tea
+TRAIN_048,hit me with some cold brew that's lots of caffeine and under 10 grams of sugar,,,10.0,,,high,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_008', 'CBR_007', 'CBR_011']",,cold_brew
+TRAIN_049,ooh do you have a fruity refresher that's cheaper than $5.0 and fully vegan?,,,,,True,,"['REF_001', 'REF_008', 'REF_002', 'REF_005', 'REF_009', 'REF_006']",5.0,refresher
+TRAIN_050,got any something blended that's blended and less than $6.5?,blended,,,,,,"['FRP_011', 'FRP_010', 'FRP_013', 'FRP_001', 'FRP_014', 'FRP_015', 'FRP_006', 'FRP_004', 'FRP_005', 'FRP_002', 'FRP_003', 'FRP_012', 'FRP_008', 'FRP_007', 'FRP_009']",6.5,frappuccino
+TRAIN_051,"hey there, i'd love basic brewed coffee that's not too much caffeine, no dairy, and no more than 200 cal",,200.0,,True,,low,['BRW_004'],,brewed
+TRAIN_052,"i need a cold brew that's no dairy, under $4.0, and lots of caffeine",,,,True,,high,['CBR_009'],4.0,cold_brew
+TRAIN_053,"i'm craving drip coffee that's vegan, hot, and less than 100 calories",hot,100.0,,,True,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_054,"hey there, i'd love a latte that's under 35 grams of sugar, no more than $6.5, and vegan",,,35.0,,True,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ICE_018', 'ESP_017', 'ICE_015', 'ICE_017', 'ICE_009', 'ICE_016', 'ICE_007', 'ESP_018', 'ICE_008', 'ESP_010', 'ESP_013']",6.5,espresso
+TRAIN_055,"trying to be healthy, got a cappuccino or latte that's dairy free, 25g sugar or less, and hot?",hot,,25.0,True,,,"['ESP_002', 'ESP_014', 'ESP_001', 'ESP_017', 'ESP_018', 'ESP_010']",,espresso
+TRAIN_056,"hit me with a latte that's max $4.5, less than 100 calories, and under 45 grams of sugar",,100.0,45.0,,,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_015', 'ESP_016', 'ESP_017']",4.5,espresso
+TRAIN_057,"trying to be healthy, got a chai or tea that's under 45g sugar, $6.5 or less, and non-dairy?",,,45.0,True,,,"['TEA_005', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_004', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'TEA_010', 'ICT_010', 'ICT_009', 'TEA_011']",6.5,tea
+TRAIN_058,"got any some tea that's without caffeine, without milk, and chilled?",iced,,,True,,none,"['ICT_004', 'ICT_007']",,tea
+TRAIN_059,"ooh do you have a latte that's max $5.0, dairy free, and max 15g sugar?",,,15.0,True,,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_017']",5.0,espresso
+TRAIN_060,"lemme get that cold brew stuff that's less than $4.5, no more than 15g sugar, and no animal stuff",,,15.0,,True,,['CBR_001'],4.5,cold_brew
+TRAIN_061,"I'd like that cold brew stuff that's high caffeine, no animal stuff, and no more than 30g sugar please",,,30.0,,True,high,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_062,"I'm looking for a refresher that's max $5.0, oat milk or something dairy free, and under 150 cals",,150.0,,True,,,"['REF_001', 'REF_002', 'REF_008', 'REF_005', 'REF_006', 'REF_009']",5.0,refresher
+TRAIN_063,"I'd like drip coffee that's not too much caffeine, cheaper than $5.5, and under 150 cal please",,150.0,,,,low,['BRW_004'],5.5,brewed
+TRAIN_064,"lemme get an americano or latte that's under 300 cal, under $5.0, and max 15g sugar",,300.0,15.0,,,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_015', 'ESP_016', 'ESP_017', 'ICE_013', 'ESP_008']",5.0,espresso
+TRAIN_065,"tea that's under 300 cals, under $4.5, and no regular milk please",,300.0,,True,,,"['TEA_005', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_004', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'ICT_010']",4.5,tea
+TRAIN_066,"long day... give me a cappuccino or latte that's warm, under 250 cals, and high caffeine",hot,250.0,,,,high,"['ESP_002', 'ESP_001', 'ESP_010', 'ESP_009']",,espresso
+TRAIN_067,"what do you have for a fruity refresher that's no regular milk, vegan, and under 350 cal?",,350.0,,True,True,,"['REF_001', 'REF_002', 'REF_008', 'REF_004', 'REF_007', 'REF_005', 'REF_006', 'REF_003', 'REF_009', 'REF_010']",,refresher
+TRAIN_068,"it's hot out, i need nitro cold brew that's less than 30g of sugar, without milk, and under 400 cals",,400.0,30.0,True,,,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_069,"can i do a cold brew that's without milk, under 20 grams of sugar, and under 300 cals",,300.0,20.0,True,,,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_070,"lemme get herbal tea that's mild, cheaper than $5.5, and iced",iced,,,,,low,"['ICT_005', 'ICT_006', 'ICT_008', 'ICT_010', 'ICT_003']",5.5,tea
+TRAIN_071,"I'm looking for green tea that's not too much caffeine, no animal stuff, and steaming",hot,,,,True,low,"['TEA_005', 'TEA_009', 'TEA_004', 'TEA_006']",,tea
+TRAIN_072,"i need green tea that's no animal stuff, non-dairy, and less than $6.5",,,,True,True,,"['TEA_005', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_004', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'ICT_010', 'ICT_009', 'TEA_010']",6.5,tea
+TRAIN_073,"what do you have for drip coffee that's low caffeine, less than 400 calories, and dairy free?",,400.0,,True,,low,['BRW_004'],,brewed
+TRAIN_074,"i'm craving a chai or tea that's under 15g sugar, cold, and max $6.5",iced,,15.0,,,,"['ICT_004', 'ICT_005', 'ICT_006']",6.5,tea
+TRAIN_075,"something with espresso that's plant based, no more than $5.5, and regular caffeine please",,,,,True,medium,"['ESP_014', 'ESP_017']",5.5,espresso
+TRAIN_076,"Could I have a cold brew that's under 100 cal, fully vegan, and dairy free?",,100.0,,True,True,,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_077,"I'll take house coffee that's less than 30g of sugar, warm, and lots of caffeine",hot,,30.0,,,high,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_003']",,brewed
+TRAIN_078,"i need a refresher that's under $6.5, vegan friendly, and oat milk or something dairy free",,,,True,True,,"['REF_001', 'REF_008', 'REF_002', 'REF_005', 'REF_009', 'REF_006', 'REF_007', 'REF_003', 'REF_004', 'REF_010']",6.5,refresher
+TRAIN_079,"ooh do you have a tea that's no animal stuff, icy, and without caffeine?",iced,,,,True,none,"['ICT_004', 'ICT_007']",,tea
+TRAIN_080,"lemme get basic brewed coffee that's vegan, less than 250 calories, and oat milk or something dairy free",,250.0,,True,True,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_081,"long day... give me an espresso drink that's 35g sugar or less, max 250 calories, and chilled",iced,250.0,35.0,,,,"['ICE_001', 'ICE_018', 'ICE_017', 'ICE_015', 'ICE_012', 'ICE_013', 'ICE_009', 'ICE_002', 'ICE_016', 'ICE_007', 'ICE_008', 'ICE_014', 'ICE_003', 'ICE_004']",,espresso
+TRAIN_082,"hey there, i'd love house coffee that's extra caffeine, max $4.0, and no regular milk",,,,True,,high,"['BRW_002', 'BRW_001', 'BRW_003']",4.0,brewed
+TRAIN_083,"lemme get some cold brew that's less than 150 calories, no animal stuff, and without milk",,150.0,,True,True,,"['CBR_001', 'CBR_012', 'CBR_002', 'CBR_011', 'CBR_009']",,cold_brew
+TRAIN_084,"hit me with nitro cold brew that's cheaper than $5.5, oat milk or something dairy free, and under 30g sugar",,,30.0,True,,,"['CBR_001', 'CBR_002', 'CBR_011', 'CBR_009']",5.5,cold_brew
+TRAIN_085,"it's hot out, i need a plain coffee that's low caffeine, 100 calories or less, and no more than $5.5",,100.0,,,,low,['BRW_004'],5.5,brewed
+TRAIN_086,"need a pick me up, something like just black coffee that's $5.5 or less, no more than 45g sugar, and vegan friendly",,,45.0,,True,,"['BRW_002', 'BRW_001', 'BRW_004', 'BRW_003', 'BRW_005']",5.5,brewed
+TRAIN_087,"hit me with a cappuccino or latte that's max $6.5, oat milk or something dairy free, and lots of caffeine",,,,True,,high,"['ESP_002', 'ICE_001', 'ESP_001', 'ESP_010', 'ICE_015', 'ICE_008', 'ICE_007', 'ESP_013', 'ICE_009']",6.5,espresso
+TRAIN_088,"May I get green tea that's plant based, under 30 grams of sugar, and medium caffeine?",,,30.0,,True,medium,['TEA_010'],,tea
+TRAIN_089,"hey can i get something with espresso that's no more than $5.0, dairy free, and under 35 grams of sugar",,,35.0,True,,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_017']",5.0,espresso
+TRAIN_090,"get me house coffee that's less than 250 calories, less than $6.0, and mild",,250.0,,,,low,['BRW_004'],6.0,brewed
+TRAIN_091,"an americano or latte that's max $4.5, max 250 calories, and vegan please",,250.0,,,True,,"['ESP_014', 'ESP_002', 'ICE_001', 'ESP_001', 'ESP_017']",4.5,espresso
+TRAIN_092,"running late but i need just black coffee that's less than 45g of sugar, vegan friendly, and under 200 cal",,200.0,45.0,,True,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_093,"Could I have drip coffee that's fully vegan, under 150 cal, and cheaper than $5.0?",,150.0,,,True,,"['BRW_002', 'BRW_001', 'BRW_004', 'BRW_003', 'BRW_005']",5.0,brewed
+TRAIN_094,"hey there, i'd love a tea that's no more than 150 cal, no dairy, and vegan",,150.0,,True,True,,"['TEA_005', 'ICT_004', 'TEA_008', 'TEA_007', 'TEA_004', 'TEA_006', 'ICT_005', 'ICT_006', 'ICT_008', 'ICT_007', 'TEA_009', 'ICT_010', 'ICT_009']",,tea
+TRAIN_095,"I'm looking for drip coffee that's fully vegan, non-dairy, and no more than 350 cal",,350.0,,True,True,,"['BRW_002', 'BRW_001', 'BRW_005', 'BRW_004', 'BRW_003']",,brewed
+TRAIN_096,"lemme get a refresher that's 400 calories or less, vegan friendly, and dairy free",,400.0,,True,True,,"['REF_001', 'REF_002', 'REF_008', 'REF_004', 'REF_007', 'REF_005', 'REF_006', 'REF_003', 'REF_009', 'REF_010']",,refresher
+TRAIN_097,"May I get an espresso drink that's steaming, vegan friendly, and under 30g sugar?",hot,,30.0,,True,,"['ESP_002', 'ESP_014', 'ESP_001', 'ESP_017', 'ESP_018', 'ESP_010', 'ESP_013']",,espresso
+TRAIN_098,"hey can i get something blended that's blended, regular caffeine, and under 350 cal",blended,350.0,,,,medium,"['FRP_001', 'FRP_015']",,frappuccino
+TRAIN_099,"give me a frozen drink that's high caffeine, frozen, and 300 calories or less",blended,300.0,,,,high,['FRP_006'],,frappuccino
+TRAIN_100,"got any basic brewed coffee that's under 40 grams of sugar, less than $4.0, and no regular milk?",,,40.0,True,,,"['BRW_002', 'BRW_001', 'BRW_004', 'BRW_003']",4.0,brewed
